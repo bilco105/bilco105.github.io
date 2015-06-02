@@ -1,0 +1,27 @@
+# Permalinks
+permalink:           pretty
+relative_permalinks: true
+
+# Assets
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# Markdown / Highlighting
+markdown:            redcarpet
+highlighter:         pygments
+
+# Setup
+title:               Rob Greenwood
+tagline:             Ping Pong Extraordinaire.
+url:                 http://bilco105.com
+paginate:            1
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "post"
+      comments: true

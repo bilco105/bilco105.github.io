@@ -1,0 +1,40 @@
+// Archive
+//
+// Homepage archive
+
+.archive {
+  padding-bottom: 1rem;
+
+  span {
+    float: right;
+    font-weight: 400;
+    color: #c0c0c0;
+  }
+
+  a {
+    color: black;
+    border-bottom: 1px solid #c0c0c0;
+
+    -webkit-transition: border .2s ease-in-out;
+       -moz-transition: border .2s ease-in-out;
+        -ms-transition: border .2s ease-in-out;
+         -o-transition: border .2s ease-in-out;
+            transition: border .2s ease-in-out;
+
+    &:hover,
+    &:focus {
+      color: #000;
+      text-decoration: none;
+      border-bottom: 1px solid #000;
+
+    }
+  }
+
+  h2.year {
+    margin-bottom: 0rem;
+  }
+
+  .item {
+    margin-bottom: 0.5rem;
+  }
+}
