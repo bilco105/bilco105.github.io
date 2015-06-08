@@ -18,7 +18,7 @@ Arguably one of the best features of OpenStack's orchestration, is the ability t
 
 To demonstrate the power of ASG, I’ve put together a Heat template which demonstrates the types of autoscaling service architectures you can build with it.
 
-To run the demo, you’ll need to have access to either an [OpenStack Public Cloud](http://www.datacentred.co.uk) or a local sandboxed OpenStack installation using [DevStack](http://docs.openstack.org/developer/devstack/). You’ll also need the OpenStack CLI tools installed, there’s a great post on [Installing OpenStack’s CLI tools on OS X](http://dischord.org/2015/03/23/installing-openstack-s-cli-tools-on-os-x) over at [dischord.org](dischord.org).
+To run the demo, you’ll need to have access to either an [OpenStack Public Cloud](http://www.datacentred.co.uk) or a local sandboxed OpenStack installation using [DevStack](http://docs.openstack.org/developer/devstack/). You’ll also need the OpenStack CLI tools installed, there’s a great post on [Installing OpenStack’s CLI tools on OS X](http://dischord.org/2015/03/23/installing-openstack-s-cli-tools-on-os-x) over at [dischord.org](http://dischord.org).
 
 Once installed, fetch the HOT template from the following gist:
 
